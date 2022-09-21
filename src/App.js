@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+// import { Nav } from 'react-bootstrap';
+import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import About from './Pages/About';
+import Contact from './Pages/Contact';
+import Home from './Pages/Home';
+import Projects from './Pages/Projects';
+import Technologies from './Pages/Technologies';
+import Nav from './Pages/Nav';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+    <BrowserRouter>
+    <span className='front'><a style={{color:"brown",textDecoration:"none"}} href='Home'>Pushpendra Singh</a></span>
+
+    <Nav/>
+    <Routes>
+    <Route path='/Home' element={<Home/>}/>
+    <Route path='/Projects' element={<Projects/>}/>
+    <Route path='/Technologies' element={<Technologies/>}/>
+    <Route path='/Contact' element={<Contact/>}/>
+    <Route path='/About' element={<About/>}/>
+      
+    </Routes>
+    
+    <h1 className='about3'>Design and code by Pushpendra Singh</h1>
+
+    </BrowserRouter>
+      
     </div>
   );
 }
