@@ -26,6 +26,12 @@ body{
     position: inherit;
     right: 25px;
 }
+.insta{
+    position: inherit;
+    right: 52px;
+    top: 2px
+}
+
 
 .text{
     color: brown;
