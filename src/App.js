@@ -6,13 +6,13 @@ import Home from './Pages/Home';
 import Projects from './Pages/Projects';
 import Technologies from './Pages/Technologies';
 import Nav from './Pages/Nav';
-
+import { Link } from 'react-router-dom';
 
 function App() {
   return (
     <div >
     <BrowserRouter>
-    <span className='front'><a style={{color:"brown",textDecoration:"none"}} href='Home'>Pushpendra Singh</a></span>
+    <span className='front'><Link style={{color:"brown",textDecoration:"none"}} to="Home">Pushpendra Singh</Link></span>
 
     <Nav/>
     <Routes>
@@ -24,9 +24,9 @@ function App() {
       
     </Routes>
     
-    <h1 className='about3'>Design and code by Pushpendra Singh</h1>
-
+      <h1 className='welcome'>Welcome To Portfolio</h1>
     </BrowserRouter>
+    <h1 className='about3'>Design and code by Pushpendra Singh</h1>
       
     </div>
   );
