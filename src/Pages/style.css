@@ -36,12 +36,13 @@ body{
 }
 
 .welcome{
-  font-family: 'Times New Roman', Times, serif;  
-  position: relative;
-  left: 580px;
-  top: 200px;
+    font-family: 'Times New Roman', Times, serif;  
+    position: relative;
+    left: 580px;
+    top: 200px;
+  
+  }
 
-}
 .text{
     color: brown;
     text-decoration: none;
