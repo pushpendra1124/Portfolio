@@ -2,7 +2,7 @@ import React from 'react-pdf'
 import "../Pages/style.css"
 // import mypic from "../Pages/mypic.jpg"
 import pic from '../Pages/Web-developer2.jpg'
-import Pushpendra1 from "../Pages/Pushpendra1.pdf"
+import Pushpendra1 from "../Pages/Pushpendra2.pdf"
 
 
 
