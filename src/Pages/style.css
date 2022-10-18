@@ -2,6 +2,7 @@ body{
     margin: 5px;
     padding: 2px;
     width: 50%;
+    /* background-color: #bbb4bb; */
    }
 .Navbar{
     display: flex;
@@ -12,10 +13,10 @@ body{
     left: 40rem;
     bottom:3rem;
     background-color: white;
-    width: 550px;
-    height: 30px;
-    /* border-radius: 30px; */
-    /* border: 3px solid brown; */
+    width: 530px;
+    height: 20px;
+    border-radius: 30px;
+    /* border: 3px solid black; */
     font-size: 15px;
     font-weight: bold;
     
@@ -23,6 +24,10 @@ body{
 
 }
 
+.git{
+    position: relative;
+    left: 5px;
+}
 .Linkdin{
     position: inherit;
     right: 25px;
@@ -287,4 +292,60 @@ color: white;
 .project_Source{
 text-decoration: none;
 color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      width: fit-content;
+      height: fit-content;
+    }
+    .Navbar{
+       position: relative;
+       flex-direction: row;
+       background-color: none;
+       left: 00px;
+       top: 00px;
+    }
+   .my_pic{
+     display: none;
+   }
+   .resume{
+    position: relative;
+    top: 0.5rem;
+   }
+   .front{
+   display: none;
+   }
+   .welcome{
+    display: none;
+   }
+   .about3{
+    position: relative;
+    left: 100px;
+   }
+   .Project--{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+   }
+   .all_Project-01{
+    height: 500px;
+   }
+   .all_Project-03{
+    height: 500px;
+
+   }
+   .technology_img{
+    position: relative;
+    left: 0px;
+   }
+   .about{
+    position: relative;
+    right: 350px;
+   }
+   .about2{
+    position: relative;
+    right: 350px;
+   }
 }
