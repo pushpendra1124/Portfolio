@@ -187,6 +187,12 @@ hr{
     left: 30rem;
 
 }
+.bio_About{
+    position: relative;
+    /* right: 100px; */
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
 container1{
     position: relative;
     top: 50px;
@@ -252,7 +258,9 @@ background-color: grey;
     border: 3px solid black ;
     border-radius: 30px
 }
-
+.fa-link:hover{
+color: white;
+}
 #fa-1{
     position: relative;
      top: 90px;
@@ -270,6 +278,10 @@ background-color: grey;
      font-weight: bold;
      color: black; 
     font-style:normal;
+    
+}
+#fa-3:hover{
+    color: white;
     
 }
 .project_Source{
