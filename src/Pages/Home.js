@@ -18,7 +18,7 @@ const Home = () => {
      <button className='resume'><a  style={{textDecoration:"none",color:"white",}} href={Pushpendra1} download={Pushpendra1}>Download Resume</a></button>
 
      </container>
-//      <img className='my_pic' src={pic} alt="Nothing--04" />
+
     </div>
   )
 }
