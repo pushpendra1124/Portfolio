@@ -134,6 +134,8 @@ font-size: larger;
     cursor: pointer;
     height: 50px;
     width: 250px;
+    font-weight: bolder;
+
 }
 .resume:hover{
     background-color: green;
