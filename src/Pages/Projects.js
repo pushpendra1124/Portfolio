@@ -25,13 +25,13 @@ const Projects = () => {
              {/* <img className='project_img2' src={Todo_app_js_img} alt="" /> */}
          <container2 className="Project--">
          <div className='all_Project-01'>
-         <h1 className='project_name'><a className='project_name' style={{textDecoration:"none"}} href="https://react-blog-page.netlify.app/">Blog Project </a> 
+         <h1 className='project_name'><a className='project_name' style={{textDecoration:"none"}} href="https://blog-project-flax-nine.vercel.app/">Blog Project </a> 
          </h1> 
          <img className='project_img-01' src={Blog_img} alt="" />
          <p className='project_bio'>This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
          <b>Tech Stack : HTML, CSS, JavaScript, React, Node
           </b>
-          <a className='project_Source' href="https://github.com/govind124/Blog-Project"><i class="fa-solid fa-link" id='fa-1'> Source Code</i></a>
+          <a className='project_Source' href="https://github.com/pushpendra1124/Blog-Project"><i class="fa-solid fa-link" id='fa-1'> Source Code</i></a>
          </div>
          {/* <div className='all_Project-02'>
          <h1 className='project_name'><a style={{color:"black"}} href="https://govind124.github.io/digital-clock/"> Clock Project</a>
@@ -42,16 +42,16 @@ const Projects = () => {
          </div> */}
          
          <div className='all_Project-03'>
-         <h1 className='project_name'><a className='project_name' style={{textDecoration:"none"}}  href="https://clone-netflix-inky.vercel.app/"> Netflix Mini </a></h1>
+         <h1 className='project_name'><a className='project_name' style={{textDecoration:"none"}}  href="https://clone-netflix-liart-zeta.vercel.app/"> Netflix Mini </a></h1>
          <img className='project_img' src={Netflix_mini_img} alt="" />
          <p className='project_bio'>This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
          <b>Tech Stack:HTML, CSS, JavaScript, React</b>
-         <a className='project_Source' href="https://github.com/govind124/clone_Netflix"><i class="fa-solid fa-link" id='fa-2'>source Code</i></a>
+         <a className='project_Source' href="https://github.com/pushpendra1124/clone_Netflix"><i class="fa-solid fa-link" id='fa-2'>source Code</i></a>
          
          </div> 
          
          <div className='all_Project-04'>
-         <h1 className='project_name'><a className='project_name' style={{textDecoration:"none"}} href="https://govind124.github.io/TODO-Web-JS/"> Todo Web </a> </h1>
+         <h1 className='project_name'><a className='project_name' style={{textDecoration:"none"}} href="https://github.com/pushpendra1124/TODO-Web-JS"> Todo Web </a> </h1>
          <img className='project_img2' src={Todo_app_js_img} alt=""  />
          <p className='project_bio'>This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
          <b> Tech Stack : HTML, CSS, JavaScript</b>
