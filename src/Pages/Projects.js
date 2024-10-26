@@ -51,11 +51,11 @@ const Projects = () => {
          </div> 
          
          <div className='all_Project-04'>
-         <h1 className='project_name'><a className='project_name' style={{textDecoration:"none"}} href="https://github.com/pushpendra1124/TODO-Web-JS"> Todo Web </a> </h1>
+         <h1 className='project_name'><a className='project_name' style={{textDecoration:"none"}} href="https://todo-web-js.vercel.app/"> Todo Web </a> </h1>
          <img className='project_img2' src={Todo_app_js_img} alt=""  />
          <p className='project_bio'>This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
          <b> Tech Stack : HTML, CSS, JavaScript</b>
-         <a className='project_Source' href="https://govind124.github.io/TODO-Web-JS/"><i class="fa-solid fa-link" id='fa-3'>source Code</i></a>
+         <a className='project_Source' href="https://github.com/pushpendra1124/TODO-Web-JS/"><i class="fa-solid fa-link" id='fa-3'>source Code</i></a>
          </div>
          </container2>
 
